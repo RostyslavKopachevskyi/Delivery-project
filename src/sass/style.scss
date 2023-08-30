@@ -1,0 +1,15 @@
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/typography';
+
+html {
+    font-size: 10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import 'blocks/hero';
