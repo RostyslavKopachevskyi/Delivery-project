@@ -52,10 +52,20 @@
             background-color: transparent;
             font-size: 2.5rem;
             color: $gray;
+            
+            &.active {
+                color: $green;
+                transition: 0.3s all;
+            }
         }
 
         &-title {
             color: $gray-dark;
+
+            &.active {
+                color: $green;
+                transition: 0.3s all;
+            }
         }
         
         &-text {
@@ -64,6 +74,11 @@
             transition: 0.3s ease-in-out;
             color: $gray-dark;
         }
+
+        &.active-border {
+            border: 0.3rem solid $green;
+            transition: 0.3s all;
+        }     
     }
 
     &__questions {
@@ -78,13 +93,3 @@
     }
 }
 
-
-.active {
-    color: $green;
-    transition: 0.3s all;
-}
-
-.active-border {
-    border: 0.3rem solid $green;
-    transition: 0.3s all;
-}

@@ -1,3 +1,4 @@
+// Hamburger 
 const hamburger = document.querySelector('.header__hamburger');
 const navMenu = document.querySelector('.header__menu');
 
@@ -11,7 +12,7 @@ document.querySelectorAll('.header__menu-item').forEach(item => item.addEventLis
     navMenu.classList.remove('active');
 }));
 
-
+// FAQ Section
 const items = document.querySelectorAll('.faq__item');
 
 items.forEach(item => {
