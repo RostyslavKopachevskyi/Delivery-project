@@ -41,3 +41,5 @@ items.forEach(item => {
         isChecked = !isChecked;
     });
 });
+
+// Form
