@@ -7,10 +7,10 @@ hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
-document.querySelectorAll('.header__menu-item').forEach(item => item.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navMenu.classList.remove('active');
-}));
+// document.querySelectorAll('.header__menu-item').forEach(item => item.addEventListener('click', () => {
+//     hamburger.classList.remove('active');
+//     navMenu.classList.remove('active');
+// }));
 
 // FAQ Section
 const items = document.querySelectorAll('.faq__item');
@@ -42,4 +42,11 @@ items.forEach(item => {
     });
 });
 
-// Form
+// Dark Theme
+
+// const toggleButton = document.getElementById('toggleButton');
+// const heroBackgroundDark = document.querySelector('.hero');
+
+// toggleButton.addEventListener('click', () => {
+//     heroBackgroundDark.classList.toggle('dark-theme');
+// });
